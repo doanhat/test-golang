@@ -1,0 +1,34 @@
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+backend.tf
+provider.tf
+
+# Terragrunt
+.terragrunt-cache
+
+# Terraform run time
+plan
+plan.json
+
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+out/
+
+# Maven
+target/
+
+#Groovy
+lib/
+
